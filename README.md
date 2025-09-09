@@ -1,4 +1,4 @@
-# Semi-Supervised Anomaly Detection for Network Intrusion Detection
+# Semi-Supervised Anomaly Detection for Network Intrusion Detection Systems
 
 This project implements a semi-supervised learning pipeline for detecting network intrusions using both autoencoders and a classical anomaly detection technique.  The system is trained and evaluated on the CIC-DDoS2019 dataset provided by the Canadian Institute for Cybersecurity.
 
