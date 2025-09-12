@@ -14,9 +14,11 @@ We use the CIC-DDoS2019 dataset provided by the Canadian Institute for Cybersecu
 
 The dataset is organized into two main folders, each corresponding to network traffic collected on a different day:
 
-* **`CSV_01_12`**: Used **for training**. It contains raw network traffic with both benign and attack flows. Only BENIGN flows are extracted from this folder and aggregated into a file named `benign_01_12.csv`, which is used to train the models.
+* **`CSV_01_12`**: Used **for training**. It contains raw network traffic with both benign and attack flows. Only BENIGN flows are extracted from this folder and aggregated into a file named `datasets/benign_01_12.csv`, which is used to train the models.
 
-* **`CSV_03_11`**: Used **for testing**. It also contains raw network traffic with both benign and attack flows. From this folder, new test datasets are created, each containing benign traffic combined with a single attack type, while preserving the original timestamps of the traffic flows. These processed datasets are saved in the `CICDDoD2019_test_new/` directory and are generated using the `data_preprocessing.py` script.
+* **`CSV_03_11`**: Used **for testing**. It also contains raw network traffic with both benign and attack flows. From this folder, new test datasets are created, each containing benign traffic combined with a single attack type, while preserving the original timestamps of the traffic flows. These processed datasets are saved in the `datasets/CICDDoD2019_test_new/` directory and are generated using the `data_preprocessing.py` script.
+
+You can download the preprocessed `datasets` folder [here](https://www.dropbox.com/scl/fi/spex4ftqy80ol1sgqr4wv/datasets.zip?rlkey=4di78juobx8qaf45xgpo7kwdp&st=h0x19tb6&dl=0).
 
 ---
 
